@@ -73,19 +73,12 @@ As subpastas seguem a convenção de nomenclatura profissional para facilitar a 
 ---
 
 ## 📫 Vamos nos conectar?
+
 Se você encontrar algo útil aqui ou quiser trocar ideias sobre tecnologia, sinta-se à vontade para entrar em contato:
 
-<div align="left">
-  <a href="https://www.linkedin.com/in/pedro-falcao-4b22741a5/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:maximosjoselages@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedro-falcao-4b22741a5/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maximosjoselages@gmail.com)
 
-<p align="center">
-  <br>
-  <b>MaximusDev</b><br>
-  <i>"Documenting the journey to mastery."</i>
-</p>
+---
+
+**MaximusDev** *"Documenting the journey to mastery."*
