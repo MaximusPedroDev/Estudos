@@ -63,12 +63,5 @@ As subpastas seguem a convenção: `[Nome-da-Fonte]/[Assunto]/[Modulo-ou-Aula]`
 * **Exemplo:** `Video-Learning/Curso-em-Video/JavaScript-Basico/Aula-01`
 
 ---
-
-## 📫 Vamos nos conectar?
-Se você encontrar algo útil aqui ou quiser trocar ideias, sinta-se à vontade para entrar em contato:
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedro-falcao-4b22741a5/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maximosjoselages@gmail.com)
-
 **MaximusDev**
 *"Documenting the journey to mastery."*
