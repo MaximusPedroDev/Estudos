@@ -1,77 +1,91 @@
-# 🏛️ Maximus Knowledge-Base
+# 🏛️ Maximus Knowledge-Base v1.0
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=thicker&color=00d2ff&secondaryColor=9d50bb&text=Knowledge%20Base&fontSize=70&animation=fadeIn&fontAlignY=38&theme=dark" />
-  <p><i>"O conhecimento é a única ferramenta que se aprimora com o uso."</i></p>
+  <img src="https://capsule-render.vercel.app/render?type=thicker&color=00d2ff&secondaryColor=9d50bb&text=Maximus%20Knowledge%20Base&fontSize=60&animation=fadeIn&fontAlignY=38&theme=dark" alt="Banner Maximus Knowledge Base" />
+  
+  <p align="center">
+    <img src="https://img.shields.io/badge/Status-Em%20Construção-00d2ff?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Main%20Focus-Full%20Stack-9d50bb?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Learning%20Method-Autodidata-white?style=for-the-badge" />
+  </p>
 </div>
 
-## 📌 Sobre o Repositório
-Este é o meu **cérebro digital**. Como um entusiasta da tecnologia e estudante autodidata, acredito que a programação não se limita a uma única linguagem. Este repositório serve como um arquivo central para todos os meus estudos, experimentos e anotações em diversas áreas da tecnologia.
+---
 
-O objetivo aqui é documentar minha evolução e criar uma base de consulta rápida para tudo o que eu aprender na minha jornada dev.
+## 📖 1. Visão Geral
+Este repositório é o meu **Single Source of Truth** (Fonte Única de Verdade). Ele centraliza toda a minha jornada de aprendizado técnico, desde os fundamentos acadêmicos até pesquisas independentes. O objetivo é transformar o conhecimento fragmentado em uma base sólida e consultável.
+
+> **Missão:** Documentar a evolução técnica, organizar referências e consolidar a prática constante através da transição de carreira.
 
 ---
 
-## 🗺️ Mapa de Estudos (Áreas de Foco)
+## 📂 2. Arquitetura do Conhecimento
+A organização deste repositório foi projetada para ser escalável. As pastas são divididas pela **origem do aprendizado**, permitindo a inclusão de qualquer nova fonte de estudo sem comprometer a estrutura:
 
-Aqui estão as trilhas que estou explorando atualmente:
+```bash
+.
+├── 🎓 Academic/          # Conteúdos de Graduação e Extensão Universitária
+├── 📺 Video-Learning/    # Cursos via YouTube, Playlists e Tutoriais
+├── 💳 Premium-Courses/   # Cursos de plataformas (Udemy, Alura, etc.)
+├── 📚 Library/           # Estudos baseados em Livros e E-books técnicos
+├── 🔍 Research-Lab/      # Deep Dives em Documentações Oficiais (MDN, W3C)
+└── 🏗️ Sandbox/           # Laboratório de testes e experimentos rápidos
 
-### 🌐 Desenvolvimento Web (Main Focus)
-- [x] **Fundamentos:** HTML5 & CSS3 Semântico.
-- [ ] **Lógica & Dinâmica:** JavaScript (ES6+).
-- [ ] **Frameworks:** Futuramente explorando React ou Vue.
+## 🛠️ 3. Toolbox de Estudo
+Principais ferramentas utilizadas para a manutenção e evolução desta base:
 
-### 🐍 Programação & Scripting
-- [ ] **Python:** Automação e lógica básica.
-- [ ] **Estrutura de Dados:** Conceitos fundamentais de algoritmos.
-
-### ⚙️ Ferramental & Workflow
-- [x] **Git & GitHub:** Versionamento e organização de repositórios.
-- [ ] **Terminal:** Comandos Bash/Zsh para produtividade.
-- [x] **VS Code:** Customização e extensões para performance.
-
----
-
-## 📂 Organização das Pastas
-
-Para manter o "Caos Criativo" sob controle, as pastas seguem este padrão:
-- `/web`: Exercícios de Front-end (HTML/CSS/JS).
-- `/logic`: Desafios de lógica e algoritmos.
-- `/notes`: Anotações teóricas sobre conceitos de tecnologia.
-- `/scripts`: Pequenos scripts de automação.
+* **IDE:** Visual Studio Code
+* **Versionamento:** Git (CLI & GitHub Desktop)
+* **Documentação:** Markdown Language
+* **Linguagens em Foco:** HTML5, CSS3, JavaScript e Python
 
 ---
 
-## 📈 Evolução e Aprendizado
+## 🗺️ 4. Roadmap de Proficiência
+Acompanhamento do nível de domínio em cada área tecnológica documentada aqui:
 
-| Tecnologia | Nível de Conforto | Status |
-| :--- | :---: | :--- |
-| HTML / CSS | ⭐⭐⭐ | Praticando Projetos |
-| JavaScript | ⭐ | Estudando Fundamentos |
-| Python | ⭐ | Revisando Conceitos |
-| Git / Terminal | ⭐⭐ | Migrando para CLI |
-
----
-
-## 🧠 Por que aprender de tudo?
-No mundo da tecnologia, as ferramentas mudam, mas os fundamentos permanecem. Meu foco é entender **como as coisas funcionam** por baixo do capô, permitindo que eu me adapte a qualquer stack ou desafio que o mercado exigir.
+| Domínio Tecnológico | Status | Nível | Tecnologias Chave |
+| :--- | :--- | :--- | :--- |
+| **Front-end Core** | 🔵 Ativo | Intermediário | HTML5, CSS3, Flexbox, Grid |
+| **Logic & Scripting** | 🟡 Ativo | Iniciante | JavaScript (ES6), Python |
+| **Dev Workflow** | 🔵 Ativo | Iniciante | Git, GitHub, Terminal |
+| **Back-end & DB** | ⚪ Pendente | - | Node.js, SQL |
 
 ---
 
-## 🤝 Contribuições e Dicas
-Se você passar por aqui e tiver uma dica de estudo ou um material bacana para compartilhar, sinta-se à vontade para abrir uma **Issue** ou me chamar nas redes sociais!
+## 🧠 5. Metodologia de Aprendizado
+Para garantir a retenção do conhecimento, sigo o ciclo **C.B.R.** em cada diretório:
 
-<div align="center">
+1.  **Consume (Consumir):** Absorção da teoria via vídeos ou leitura técnica.
+2.  **Build (Construir):** Implementação de um projeto prático ou exercício.
+3.  **Refactor (Refatorar):** Revisão do código e adição de comentários explicativos para o futuro.
+
+> *“O aprendizado real acontece na refatoração, quando transformamos o 'funciona' em 'excelente'.”*
+
+---
+
+## 📈 6. Registro de Atividades
+As subpastas seguem a convenção de nomenclatura profissional para facilitar a busca e o histórico de estudos:
+
+* **Padrão:** `[Nome-da-Fonte]/[Assunto]/[Modulo-ou-Aula]`
+* **Exemplo Prático:** `Video-Learning/Curso-em-Video/JavaScript-Basico/Aula-01`
+
+---
+
+## 📫 Vamos nos conectar?
+Se você encontrar algo útil aqui ou quiser trocar ideias sobre tecnologia, sinta-se à vontade para entrar em contato:
+
+<div align="left">
   <a href="https://www.linkedin.com/in/pedro-falcao-4b22741a5/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:maximosjoselages@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </div>
 
----
 <p align="center">
-  <b>Feito por MaximusDev</b><br>
-  <i>Transformando curiosidade em código.</i>
+  <br>
+  <b>MaximusDev</b><br>
+  <i>"Documenting the journey to mastery."</i>
 </p>
