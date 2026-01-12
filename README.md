@@ -70,15 +70,21 @@ As subpastas seguem a convenção de nomenclatura profissional para facilitar a 
 * **Padrão:** `[Nome-da-Fonte]/[Assunto]/[Modulo-ou-Aula]`
 * **Exemplo Prático:** `Video-Learning/Curso-em-Video/JavaScript-Basico/Aula-01`
 
----
-
-## 📫 Vamos nos conectar?
+---### 📫 Vamos nos conectar?
 
 Se você encontrar algo útil aqui ou quiser trocar ideias sobre tecnologia, sinta-se à vontade para entrar em contato:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedro-falcao-4b22741a5/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maximosjoselages@gmail.com)
+<p align="left">
+  <a href="https://www.linkedin.com/in/pedro-falcao-4b22741a5/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:maximosjoselages@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
 
----
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=A%20única%20maneira%20de%20fazer%20um%20excelente%20trabalho%20é%20amar%20o%20que%20você%20faz." />
+</div>
 
 **MaximusDev** *"Documenting the journey to mastery."*
