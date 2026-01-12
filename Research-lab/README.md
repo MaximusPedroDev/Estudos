@@ -1,12 +1,16 @@
 # 🔍 Research-Lab
-> Deep Dives em Documentações Oficiais e Artigos Científicos.
+> Parte da Maximus Knowledge-Base
 
-A fonte primária da verdade. Aqui não uso tutoriais de terceiros, mas sim a documentação direta (MDN, W3C, Python Docs) para entender o "como" e o "porquê" por trás das tecnologias.
-
-### 🧪 Áreas de Investigação
-* **Web APIs:** Exploração de recursos nativos do navegador.
-* **Python Internals:** Entendendo como a linguagem gerencia memória e execução.
-* **CSS Specs:** Novas funcionalidades de layout.
+Este diretório contém estudos e documentos relacionados a **Research-Lab**. Seguindo a metodologia **C.B.R.** (Consume, Build, Refactor).
 
 ---
-[⬅️ Voltar ao Início](https://github.com/SeuUsuario/SeuRepositorio)
+
+## 📂 Estrutura de Conteúdo Atualizada
+```bash
+├── Research-Lab/
+```
+
+---
+[⬅️ Voltar ao Início](../README.md)
+
+<p align="right"><i>Atualizado automaticamente por MaximusScript 🛠️</i></p>

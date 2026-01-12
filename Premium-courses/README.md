@@ -1,14 +1,16 @@
 # 💳 Premium-Courses
-> Formações pagas e certificações profissionais.
+> Parte da Maximus Knowledge-Base
 
-Diretório destinado a cursos estruturados de plataformas como Udemy, Alura, Coursera ou EBAC. O foco aqui é o domínio técnico para o mercado de trabalho.
-
-### 🏆 Certificações em Foco
-- [ ] Formação Python (Plataforma X)
-- [ ] Web Development Bootcamp (Plataforma Y)
-
-### 📂 Organização
-Os arquivos estão organizados por `Nome-da-Plataforma/Nome-do-Curso/Modulos`.
+Este diretório contém estudos e documentos relacionados a **Premium-Courses**. Seguindo a metodologia **C.B.R.** (Consume, Build, Refactor).
 
 ---
-[⬅️ Voltar ao Início](https://github.com/SeuUsuario/SeuRepositorio)
+
+## 📂 Estrutura de Conteúdo Atualizada
+```bash
+├── Premium-Courses/
+```
+
+---
+[⬅️ Voltar ao Início](../README.md)
+
+<p align="right"><i>Atualizado automaticamente por MaximusScript 🛠️</i></p>

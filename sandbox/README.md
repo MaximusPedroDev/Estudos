@@ -1,14 +1,16 @@
 # 🏗️ Sandbox
-> Laboratório de testes e experimentos rápidos.
+> Parte da Maximus Knowledge-Base
 
-Este é o meu playground. Um espaço livre de regras rígidas de organização onde testo ideias, snippets de código e lógicas complexas antes de levá-las para um projeto real.
-
-### 🧪 O que vive aqui?
-* Testes de algoritmos.
-* Brincadeiras com novas bibliotecas.
-* Prototipagem de componentes de UI.
-
-> **Aviso:** O código aqui pode estar "sujo" ou em constante mudança (estado permanente de *Refactor*).
+Este diretório contém estudos e documentos relacionados a **Sandbox**. Seguindo a metodologia **C.B.R.** (Consume, Build, Refactor).
 
 ---
-[⬅️ Voltar ao Início](https://github.com/SeuUsuario/SeuRepositorio)
+
+## 📂 Estrutura de Conteúdo Atualizada
+```bash
+├── Sandbox/
+```
+
+---
+[⬅️ Voltar ao Início](../README.md)
+
+<p align="right"><i>Atualizado automaticamente por MaximusScript 🛠️</i></p>
