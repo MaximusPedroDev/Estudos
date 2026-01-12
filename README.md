@@ -1,38 +1,34 @@
 # 🏛️ Maximus Knowledge-Base v1.0
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=thicker&color=00d2ff&secondaryColor=9d50bb&text=Maximus%20Knowledge%20Base&fontSize=60&animation=fadeIn&fontAlignY=38&theme=dark" alt="Banner Maximus Knowledge Base" />
-  
-  <p align="center">
-    <img src="https://img.shields.io/badge/Status-Em%20Construção-00d2ff?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/Main%20Focus-Full%20Stack-9d50bb?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/Learning%20Method-Autodidata-white?style=for-the-badge" />
-  </p>
-</div>
+![Banner](https://capsule-render.vercel.app/render?type=thicker&color=00d2ff&secondaryColor=9d50bb&text=Maximus%20Knowledge%20Base&fontSize=60&animation=fadeIn&fontAlignY=38&theme=dark)
+
+| Status | Foco Principal | Metodologia |
+| :--- | :--- | :--- |
+| ![Construção](https://img.shields.io/badge/Status-Em%20Construção-00d2ff?style=flat-square) | ![Full Stack](https://img.shields.io/badge/Main%20Focus-Full%20Stack-9d50bb?style=flat-square) | ![Autodidata](https://img.shields.io/badge/Learning%20Method-Autodidata-white?style=flat-square) |
 
 ---
 
 ## 📖 1. Visão Geral
-Este repositório é o meu **Single Source of Truth** (Fonte Única de Verdade). Ele centraliza toda a minha jornada de aprendizado técnico, desde os fundamentos acadêmicos até pesquisas independentes. O objetivo é transformar o conhecimento fragmentado em uma base sólida e consultável.
+Este repositório é o meu **Single Source of Truth** (Fonte Única de Verdade). Ele centraliza toda a minha jornada de aprendizado técnico, desde os fundamentos acadêmicos até pesquisas independentes.
 
 > **Missão:** Documentar a evolução técnica, organizar referências e consolidar a prática constante através da transição de carreira.
 
 ---
 
 ## 📂 2. Arquitetura do Conhecimento
-A organização deste repositório foi projetada para ser escalável. As pastas são divididas pela **origem do aprendizado**, permitindo a inclusão de qualquer nova fonte de estudo sem comprometer a estrutura:
+A organização é dividida pela **origem do aprendizado**, permitindo escala e fácil navegação:
 
-```bash
-.
-├── 🎓 Academic/          # Conteúdos de Graduação e Extensão Universitária
-├── 📺 Video-Learning/    # Cursos via YouTube, Playlists e Tutoriais
-├── 💳 Premium-Courses/   # Cursos de plataformas (Udemy, Alura, etc.)
-├── 📚 Library/           # Estudos baseados em Livros e E-books técnicos
-├── 🔍 Research-Lab/      # Deep Dives em Documentações Oficiais (MDN, W3C)
-└── 🏗️ Sandbox/           # Laboratório de testes e experimentos rápidos
+* **🎓 Academic:** Conteúdos de Graduação e Extensão Universitária.
+* **📺 Video-Learning:** Cursos via YouTube, Playlists e Tutoriais.
+* **💳 Premium-Courses:** Cursos de plataformas (Udemy, Alura, etc.).
+* **📚 Library:** Estudos baseados em Livros e E-books técnicos.
+* **🔍 Research-Lab:** Deep Dives em Documentações Oficiais (MDN, W3C).
+* **🏗️ Sandbox:** Laboratório de testes e experimentos rápidos.
+
+---
 
 ## 🛠️ 3. Toolbox de Estudo
-Principais ferramentas utilizadas para a manutenção e evolução desta base:
+Ferramentas utilizadas para a manutenção e evolução desta base:
 
 * **IDE:** Visual Studio Code
 * **Versionamento:** Git (CLI & GitHub Desktop)
@@ -42,7 +38,6 @@ Principais ferramentas utilizadas para a manutenção e evolução desta base:
 ---
 
 ## 🗺️ 4. Roadmap de Proficiência
-Acompanhamento do nível de domínio em cada área tecnológica documentada aqui:
 
 | Domínio Tecnológico | Status | Nível | Tecnologias Chave |
 | :--- | :--- | :--- | :--- |
@@ -53,38 +48,27 @@ Acompanhamento do nível de domínio em cada área tecnológica documentada aqui
 
 ---
 
-## 🧠 5. Metodologia de Aprendizado
-Para garantir a retenção do conhecimento, sigo o ciclo **C.B.R.** em cada diretório:
+## 🧠 5. Metodologia de Aprendizado (C.B.R.)
+Sigo este ciclo em cada diretório para garantir a retenção de conhecimento:
 
 1.  **Consume (Consumir):** Absorção da teoria via vídeos ou leitura técnica.
 2.  **Build (Construir):** Implementação de um projeto prático ou exercício.
-3.  **Refactor (Refatorar):** Revisão do código e adição de comentários explicativos para o futuro.
-
-> *“O aprendizado real acontece na refatoração, quando transformamos o 'funciona' em 'excelente'.”*
+3.  **Refactor (Refatorar):** Revisão do código e adição de comentários explicativos.
 
 ---
 
 ## 📈 6. Registro de Atividades
-As subpastas seguem a convenção de nomenclatura profissional para facilitar a busca e o histórico de estudos:
+As subpastas seguem a convenção: `[Nome-da-Fonte]/[Assunto]/[Modulo-ou-Aula]`
 
-* **Padrão:** `[Nome-da-Fonte]/[Assunto]/[Modulo-ou-Aula]`
-* **Exemplo Prático:** `Video-Learning/Curso-em-Video/JavaScript-Basico/Aula-01`
+* **Exemplo:** `Video-Learning/Curso-em-Video/JavaScript-Basico/Aula-01`
 
----### 📫 Vamos nos conectar?
+---
 
-Se você encontrar algo útil aqui ou quiser trocar ideias sobre tecnologia, sinta-se à vontade para entrar em contato:
+## 📫 Vamos nos conectar?
+Se você encontrar algo útil aqui ou quiser trocar ideias, sinta-se à vontade para entrar em contato:
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/pedro-falcao-4b22741a5/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:maximosjoselages@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedro-falcao-4b22741a5/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maximosjoselages@gmail.com)
 
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=A%20única%20maneira%20de%20fazer%20um%20excelente%20trabalho%20é%20amar%20o%20que%20você%20faz." />
-</div>
-
-**MaximusDev** *"Documenting the journey to mastery."*
+**MaximusDev**
+*"Documenting the journey to mastery."*
