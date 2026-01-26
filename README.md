@@ -1,6 +1,6 @@
 # 🏛️ Maximus Knowledge-Base v1.0
 
-![Banner](https://capsule-render.vercel.app/render?type=thicker&color=00d2ff&secondaryColor=9d50bb&text=Maximus%20Knowledge%20Base&fontSize=60&animation=fadeIn&fontAlignY=38&theme=dark)
+![Banner]("Group 1.jpg")
 
 | Status | Foco Principal | Metodologia |
 | :--- | :--- | :--- |
