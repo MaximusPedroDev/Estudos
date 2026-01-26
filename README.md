@@ -1,6 +1,6 @@
 # 🏛️ Maximus Knowledge-Base v1.0
 
-![Banner]("Group 1.jpg")
+![Banner](/Group%201.jpg)
 
 | Status | Foco Principal | Metodologia |
 | :--- | :--- | :--- |
