@@ -30,7 +30,7 @@ Organização simplificada por stack para evitar fragmentação:
 
 ## 📝 Como utilizo este repositório?
 1. Cada exercício ou aula vira um arquivo dentro da sua respectiva pasta.
-2. Nomes de arquivos são descritivos (ex: `flexbox-nav.html` ou `loop-exercicio.js`).
+2. Nomes de arquivos são descritivos separados por pastas do tema que estamos estudando  (ex: `flexbox-nav.html` ou `loop-exercicio.js`).
 3. O foco é a **prática diária**.
 
 ---
