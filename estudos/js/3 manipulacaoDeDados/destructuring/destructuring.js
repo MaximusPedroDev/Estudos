@@ -1,4 +1,4 @@
-/**
+/*
  * ============================================================================
  * GUIA DEFINITIVO DE ESTUDOS: DESTRUCTURING (DESESTRUTURAÇÃO)
  * ============================================================================
@@ -18,6 +18,7 @@ const jogo = {
 };
 
 /* Forma Antiga */
+
 // const titulo = jogo.titulo;
 // const progresso = jogo.progresso;
 
@@ -32,6 +33,7 @@ const { plataforma: loja } = jogo;
 // console.log(loja); // "Ubisoft Connect"
 
 /* Valores Padrão (Default Values) */
+
 // Se 'ano' não existir no objeto, ele assume 2020
 const { ano = 2020 } = jogo;
 
@@ -77,7 +79,7 @@ const {
 // 4. USO EM PARÂMETROS DE FUNÇÃO (VITAL PARA REACT)
 // ----------------------------------------------------------------------------
 
-/**
+/*
  * Em vez de passar o objeto inteiro e usar 'obj.prop',
  * desestruturamos direto nos parênteses.
  */
@@ -101,13 +103,13 @@ let b = "Altaïr";
 // 6. CUIDADOS E BOAS PRÁTICAS
 // ----------------------------------------------------------------------------
 
-/* 1. Se tentar desestruturar algo de 'null' ou 'undefined', o JS quebrará. 
-     Use valores padrão ou verifique antes.
-  2. Não exagere no aninhamento: se for muito profundo, o código fica 
-     difícil de ler. Às vezes é melhor fazer em duas etapas.
+/* 
+1. Se tentar desestruturar algo de 'null' ou 'undefined', o JS quebrará. Use valores padrão ou verifique antes.
+2. Não exagere no aninhamento: se for muito profundo, o código fica difícil de ler. Às vezes é melhor fazer em duas etapas.
 */
 
-/** * PRO-TIP: No seu Dashboard Omnis, quando você receber um objeto
+/*
+ * PRO-TIP: No seu Dashboard Omnis, quando você receber um objeto
  * gigante de uma API de jogos, use a desestruturação logo no
  * início da função para "limpar" os dados e usar apenas o necessário.
  */

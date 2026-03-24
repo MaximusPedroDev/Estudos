@@ -1,9 +1,9 @@
 /*
  * ============================================================================
-. GUIA DEFINITIVO DE ESTUDOS: ESTRUTURAS DE CONTROLE (DECISÃO)
+ *GUIA DEFINITIVO DE ESTUDOS: ESTRUTURAS DE CONTROLE (DECISÃO)
  * ============================================================================
-. Estruturas de controle direcionam o fluxo de execução do programa.
-. Elas decidem quais blocos de código devem ser executados e quais ignorados.
+ *Estruturas de controle direcionam o fluxo de execução do programa.
+ *Elas decidem quais blocos de código devem ser executados e quais ignorados.
 */
 
 // ----------------------------------------------------------------------------
@@ -13,11 +13,13 @@
 const progresso = 100;
 
 /* IF Simples */
+
 if (progresso >= 100) {
 	// console.log("Troféu de Platina desbloqueado!");
 }
 
 /* IF / ELSE IF / ELSE */
+
 const plataforma = "Ubisoft Connect";
 
 if (plataforma === "Steam") {
@@ -32,10 +34,11 @@ if (plataforma === "Steam") {
 // 2. SWITCH (ESCOLHA)
 // ----------------------------------------------------------------------------
 
-/**
+/*
  * O Switch é ideal para quando você tem múltiplas opções fixas
  * para uma única variável. É mais limpo que vários "else if".
  */
+
 const rank = "Mestre";
 
 switch (rank) {
@@ -57,6 +60,7 @@ switch (rank) {
 // ----------------------------------------------------------------------------
 
 /* Sintaxe: condição ? valor_se_verdade : valor_se_falso */
+
 const idadeDaughter = 10;
 const categoria =
 	idadeDaughter >= 12
@@ -67,10 +71,11 @@ const categoria =
 // 4. TRUTHY E FALSY NAS CONDIÇÕES
 // ----------------------------------------------------------------------------
 
-/**
+/*
  * Você não precisa sempre comparar (x === true).
  * O JS avalia o "valor de verdade" do dado.
  */
+
 let listaDeJogos = []; // Array vazio é TRUTHY
 
 if (listaDeJogos.length) {
@@ -84,7 +89,7 @@ if (listaDeJogos.length) {
 // 5. TRATAMENTO DE ERROS (TRY / CATCH)
 // ----------------------------------------------------------------------------
 
-/**
+/*
  * Uma estrutura de controle para lidar com "falhas de missão".
  * Evita que o programa inteiro trave se algo der errado (como uma API fora do ar).
  */
@@ -103,15 +108,14 @@ try {
 // 6. DICAS DE CÓDIGO LIMPO (CLEAN CODE)
 // ----------------------------------------------------------------------------
 
-/* 1. Evite "Else" desnecessários (Early Return): 
-    Se o 'if' já retorna algo, não precisa de 'else' depois.
-  2. Não aninhe muitos IFs (Código pirâmide): 
-    Tente manter a lógica o mais "reta" possível.
-  3. No Switch, nunca esqueça o 'break', a menos que queira 
-    executar múltiplos casos propositalmente.
+/*
+* 1. Evite "Else" desnecessários (Early Return): Se o 'if' já retorna algo, não precisa de 'else' depois.
+* 2. Não aninhe muitos IFs (Código pirâmide): Tente manter a lógica o mais "reta" possível.
+* 3. No Switch, nunca esqueça o 'break', a menos que queira executar múltiplos casos propositalmente.
 */
 
-/** * PRO-TIP: No VS Code, você pode usar 'Ctrl + Shift + r' para
+/* 
+ * PRO-TIP: No VS Code, você pode usar 'Ctrl + Shift + r' para
  * refatorar um bloco de 'if/else' complexo em um 'switch'
  * automaticamente em alguns casos!
  */

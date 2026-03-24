@@ -1,114 +1,67 @@
 /*
-> ============================================================================
-. GUIA DEFINITIVO DE ESTUDOS: FUNÇÕES CALLBACK
-> ============================================================================
-. Uma função de callback é uma função passada a outra função como argumento,
-. que é então invocada dentro da função externa para completar algum tipo
-. de rotina ou ação.
-
+ * ============================================================================
+ * GUIA DE ESTUDOS: CALLBACKS (PARA CRIANÇAS E GENTE GRANDE)
+ * ============================================================================
+ * Imagine que uma Callback é um "BILHETE DE INSTRUÇÃO".
+ * Você entrega o bilhete para alguém e diz:
+ * "Faça o seu trabalho e, QUANDO TERMINAR, siga o que está neste bilhete".
 */
 
 // ----------------------------------------------------------------------------
-// 1. O CONCEITO BÁSICO (SÍNCRONO)
+// 1. O EXEMPLO DA PIZZARIA (O JEITO FÁCIL)
 // ----------------------------------------------------------------------------
 
-function processarUsuario(nome, callback) {
-	// console.log(`Iniciando processamento para: ${nome}`);
-	callback(nome); // Aqui a callback é executada
-}
+// Esta é a função que faz o trabalho demorado (fazer a pizza)
+function pedirPizza(sabor, instrucaoPosEntrega) {
+	console.log(`[1] Pedido de pizza de ${sabor} recebido!`);
+	console.log("[2] A pizza está no forno... isso vai demorar um pouco.");
 
-//. Passando uma função anônima como callback 
+	// O JavaScript não fica parado esperando! Ele continua fazendo outras coisas.
 
-processarUsuario("PedroMaximus", (nome) => {
-	// console.log(`Usuário ${nome} foi processado com sucesso no Omnis.`);
-});
+	setTimeout(() => {
+		console.log(`[3] A pizza de ${sabor} chegou na sua casa!`);
 
-// ----------------------------------------------------------------------------
-// 2. CALLBACKS ASSÍNCRONAS (O USO REAL)
-// ----------------------------------------------------------------------------
-
-/*
-. Callbacks brilham quando precisamos esperar algo acontecer (I/O, Timer, API).
-. O JavaScript continua executando o resto do código enquanto espera.
-*/
-
-// console.log("1. Abrindo o Animus...");
-
-setTimeout(() => {
-
-    // console.log("2. Sincronização completa! (Executado após 3 segundos)");
-
-}, 3000);
-
-// console.log("3. Carregando ambiente...");
-
-// ----------------------------------------------------------------------------
-// 3. USO EM MÉTODOS DE ARRAY (REVISÃO)
-// ----------------------------------------------------------------------------
-
-const jogos = ["AC1", "AC2", "AC Brotherhood"];
-
-// O .map() recebe uma callback para transformar cada item 
-const listaFormatada = jogos.map(
-	(jogo) => `Título: ${jogo}`,
-);
-
-// ----------------------------------------------------------------------------
-// 4. O FAMOSO "CALLBACK HELL" (O INFERNO DAS CALLBACKS)
-// ----------------------------------------------------------------------------
-
-/*
- * Quando aninhamos muitas callbacks, o código cresce para a direita (pirâmide),
- * tornando-se impossível de ler e manter.
- */
-
-// EXEMPLO DE CÓDIGO RUIM (Evite isso): 
-/*
-getData(id, (user) => {
-    getProjects(user.id, (projects) => {
-        getTasks(projects[0], (tasks) => {
-            console.log("Chegamos ao fim...");
-        });
-    });
-});
-*/
-
-// ----------------------------------------------------------------------------
-// 5. POR QUE AS CALLBACKS SÃO IMPORTANTES HOJE?
-// ----------------------------------------------------------------------------
-
-/*
-1. Event Listeners: Essenciais para interatividade (clicks, scrolls).
-2. Middlewares: No Node.js (Express), tudo funciona via callbacks.
-3. Fundação: Elas são a base sobre a qual as Promises foram construídas.
-*/
-
-// ----------------------------------------------------------------------------
-// 6. TRATAMENTO DE ERROS EM CALLBACKS
-// ----------------------------------------------------------------------------
-
-/**
- * Por convenção (Error-First Callback), o primeiro parâmetro
- * costuma ser o erro.
- */
-function buscarDadosNoBanco(id, callback) {
-	const erro = false; // Simulação
-	if (erro) {
-		callback("Erro ao conectar", null);
-	} else {
-		callback(null, { id: 1, nome: "Omnis DB" });
-	}
+		// AGORA, o entregador olha o seu "bilhete" (a Callback)
+		instrucaoPosEntrega();
+	}, 4000); // Espera 4 segundos para fingir que é o tempo do forno
 }
 
 // ----------------------------------------------------------------------------
-// 7. DICA DE PRODUTIVIDADE NO VS CODE
+// 2. EXECUTANDO A MISSÃO
 // ----------------------------------------------------------------------------
 
-/* Use o atalho 'clg' (se tiver snippets instalados) para criar logs rápidos dentro de suas callbacks e rastrear a ordem de execução.
+// Aqui nós "chamamos" a função e entregamos a nossa Callback (o bilhete)
+pedirPizza("Calabresa", function () {
+	console.log("[4] AÇÃO DA CALLBACK: Lavar as mãos e COMER!");
+});
+
+// console.log("[!] Enquanto a pizza não vem, eu vou jogando videogame...");
+
+// ----------------------------------------------------------------------------
+// 3. POR QUE ISSO É IMPORTANTE?
+// ----------------------------------------------------------------------------
+
+/* 
+	Imagine se o mundo parasse toda vez que você pedisse algo. 
+	- Se você clicasse num botão e o computador ficasse "congelado" até 
+    o site carregar, seria horrível. 
+	- A Callback serve para o computador dizer: 
+    "Pode continuar fazendo suas coisas, eu te aviso quando terminar!"
+*/
+
+// ----------------------------------------------------------------------------
+// 4. RESUMO PARA NÃO ESQUECER
+// ----------------------------------------------------------------------------
+
+/* 
+1. Função Principal: É o "Trabalhador" (Ex: Pedir Pizza).
+2. Callback: É o "Aviso" de o que fazer depois (Ex: Comer).
+3. O Momento: A Callback só acontece DEPOIS que o trabalhador termina.
 */
 
 /*
- * PRO-TIP: No seu Dashboard, use callbacks para monitorar quando o
- * usuário para de digitar em uma barra de busca (Debounce), evitando
- * centenas de requisições inúteis à API.
+ * PRO-TIP DO PAI: No seu sistema Omnis, uma Callback é como
+ * quando você clica para abrir um jogo e, enquanto ele carrega,
+ * você pode ver suas mensagens no Discord. Quando o jogo abre
+ * (termina a tarefa), ele "chama" você de volta para jogar.
  */

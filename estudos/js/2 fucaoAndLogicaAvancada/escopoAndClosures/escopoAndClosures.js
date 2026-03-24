@@ -116,9 +116,8 @@ externa();
 // 6. CUIDADO COM MEMÓRIA (MEMORY LEAKS)
 // ----------------------------------------------------------------------------
 
-/* Como as Closures mantêm referências a variáveis externas, elas podem 
-   impedir que o "Garbage Collector" limpe a memória se não forem usadas 
-   com cuidado em aplicações gigantescas.
+/* 
+Como as Closures mantêm referências a variáveis externas, elas podem impedir que o "Garbage Collector" limpe a memória se não forem usadas com cuidado em aplicações gigantescas.
 */
 
 /** * PRO-TIP: No VS Code, se você passar o mouse sobre uma variável

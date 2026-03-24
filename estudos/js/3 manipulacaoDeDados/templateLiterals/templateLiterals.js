@@ -1,4 +1,4 @@
-/**
+/*
  * ============================================================================
  * GUIA DEFINITIVO DE ESTUDOS: TEMPLATE LITERALS
  * ============================================================================
@@ -14,6 +14,7 @@ const usuario = "PedroMaximus";
 const jogoAtivo = "Assassin's Creed";
 
 /* Forma Antiga (Concatenação com +) */
+
 // const mensagem = "O usuário " + usuario + " está jogando " + jogoAtivo + ".";
 
 /* Forma Moderna (Interpolação com ${}) */
@@ -25,7 +26,7 @@ const mensagem = `O usuário ${usuario} está jogando ${jogoAtivo}.`;
 // 2. STRINGS MULTILINHA (MULTILINE)
 // ----------------------------------------------------------------------------
 
-/**
+/*
  * Com aspas comuns, você precisaria de \n para pular linha.
  * Com Template Literals, basta dar o 'Enter' no código.
  */
@@ -62,6 +63,7 @@ const cupomTexto = `Preço final com desconto: R$ ${(precoOriginal * (1 - descon
 const isOnline = true;
 
 /* Usando operador ternário para decidir o texto dinamicamente */
+
 const statusStatus = `O servidor está ${isOnline ? "OPERANTE" : "OFFLINE"}.`;
 
 // ----------------------------------------------------------------------------
@@ -88,11 +90,9 @@ const frase = realçar`O mestre ${nick} chegou.`;
 // 6. CUIDADOS E SEGURANÇA
 // ----------------------------------------------------------------------------
 
-/* 1. Cuidado com espaços em branco: Em strings multilinha, 
-     a indentação do código vira parte da string.
-  2. Segurança (XSS): Nunca insira dados de usuários diretamente 
-     em Template Literals que serão renderizados como HTML sem 
-     antes "limpar" os dados (sanitização).
+/* 1. Cuidado com espaços em branco: Em strings multilinha, a indentação do código vira parte da string.
+  2. Segurança (XSS): Nunca insira dados de usuários diretamente em Template Literals que serão renderizados 
+  como HTML sem antes "limpar" os dados (sanitização).
 */
 
 /** * PRO-TIP: No seu Dashboard, use Template Literals para criar

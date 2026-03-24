@@ -1,5 +1,15 @@
 {
-    
+    "prettier.printWidth": 75,
+    "prettier.tabWidth": 2,
+    "prettier.useTabs": false,
+    "prettier.semi": true,
+    "prettier.singleQuote": false,
+    "prettier.trailingComma": "es5",
+    "prettier.bracketSpacing": true,
+    "prettier.bracketSameLine": false,
+    "prettier.arrowParens": "always",
+    "prettier.endOfLine": "auto",
+    "prettier.singleAttributePerLine": false,
     "arrowParens": "always",
     "bracketSameLine": true,
     "bracketSpacing": true,
@@ -20,4 +30,3 @@
     "useTabs": true,
     "vueIndentScriptAndStyle": false
 }
-
