@@ -1,0 +1,9 @@
+const soma = function (a, b) {
+    return	a + b;
+};
+
+const mostrarSoma = function (a , b , operacao=soma){
+    console.log(operacao(a,b))
+}
+
+mostrarSoma(4, 5)
